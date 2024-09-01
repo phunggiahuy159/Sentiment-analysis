@@ -1,5 +1,5 @@
 from datasets import load_dataset
-from transformers import AdamW, AutoTokenizer, DataCollatorWithPadding
+from transformers import AutoTokenizer, DataCollatorWithPadding
 from torch.utils.data import DataLoader
 import torch 
 import numpy as np
